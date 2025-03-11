@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSDUT-KeepMoving</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>SSDUT-KeepMoving</h1>
+
+    <div class="container">
+        <!-- 画布区域 -->
+        <div class="preview">
+            <canvas id="canvas" width="585" height="1266"></canvas>
+        </div>
+
+        <!-- 选项 -->
+        <div class="options">
+            <div class="input-group">
+                <span>上传头像：</span>
+                <input type="file" id="imageInput" accept="image/*">
+            </div>
+
+            <div class="input-group">
+                <span>输入ID：</span>
+                <input type="text" id="textInput" placeholder="输入ID">
+            </div>
+
+            <div class="input-group">
+                <span>输入日期：</span>
+                <input type="text" id="DateInput" placeholder="输入日期">
+            </div>
+
+            <div class="input-group">
+                <button onclick="generateImage()">生成图片</button>
+                <button onclick="downloadImage()">下载图片</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

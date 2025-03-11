@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Qanelas';
+    src: url('fonts/Qanelas-Bold.otf') format('truetype');
+    /* 确保路径正确 */
+}
+
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Flexbox 布局 */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+/* 左侧 Canvas 预览 */
+.preview {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+/* 右侧选项 */
+.options {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* 控制文字和按钮的间距 */
+    width: 100%;
+    /* 让整个 div 占满父容器 */
+}
+
+.input-group span {
+    width: 100px;
+    /* 设定固定宽度，让左侧文本对齐 */
+    text-align: right;
+    /* 让文本靠右对齐 */
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
