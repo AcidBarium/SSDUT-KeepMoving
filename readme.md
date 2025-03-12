@@ -2,6 +2,8 @@
 
 # SSDUT-KeepMoving
 
+大黑山的妖风肆虐这这片土地，昏暗的灯光下，一排排的窝工战士在操场上匍匐前进着，他们手中的手机发出微弱的灯光，在操场上汇聚成一条流动的海洋。。。
+
 大连理工大学软件学院keep截图工具。
 
 坐地日行八万里，巡天遥看一千河。
@@ -13,14 +15,11 @@
   - [开发前的配置要求](#开发前的配置要求)
   - [安装步骤](#安装步骤)
 - [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
 - [贡献者](#贡献者)
   - [如何参与开源项目](#如何参与开源项目)
 - [版本控制](#版本控制)
 - [作者](#作者)
-- [鸣谢](#鸣谢)
+
 
 ### 上手指南
 
@@ -35,48 +34,28 @@
 git clone https://github.com/AcidBarium/SSDUT-KeepMoving.git
 ```
 
+###### 项目细节介绍
+
+
 ### 文件目录说明
 
+- fonts里面放着项目需要的字体，主要是keep的数字
+- source是真实的跑道截图，项目的原理就是结合这些跑道和一些随机的正常数字得到截图。未来会不断扩充该文件夹以得到更加真实的效果。
+- bg.png是keep的背景图
+- faBuDaoSheQu.png是“发布到社区”一个图片
+- icBatter.png 是手机电池。
+- index.html 即简单网页html文件。
+- style.css 即简单的网页css文件。
+- script.js 也即简单的js文件。
 
-```
-filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
-├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
-
-```
-
-
-
-### 开发的架构 
-
-
-
-### 部署
-
-
-
-### 使用到的框架
-
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
 
 ### 贡献者
 
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
+
+## 贡献者名单
+<a href="https://github.com/AcidBarium/SSDUT-KeepMoving/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AcidBarium/SSDUT-KeepMoving" />
+</a>
 
 #### 如何参与开源项目
 
@@ -103,17 +82,5 @@ Acidbarium
 ### 版权说明
 
 该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
-
-### 鸣谢
-
-
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
-
-
 
 
