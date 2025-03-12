@@ -4,9 +4,9 @@
 
 大黑山的妖风肆虐着这片土地，昏暗的灯光下，一排排的窝工战士在操场上匍匐前进着，他们手中的手机发出微弱的灯光，在操场上汇聚成一条流动的海洋。。。
 
-“下周就要收keep截图了，今天也要打卡啊。。”
+“下周就要收keep截图了，今天也要打卡啊———”
 
-**好想，好想 坐地日行八万里，巡天遥看一千河。。。**
+**“好想，好想，好想坐地日行八万里，巡天遥看一千河啊————”**
 
 大连理工大学软件学院keep截图工具。
 
@@ -52,6 +52,12 @@ git clone https://github.com/AcidBarium/SSDUT-KeepMoving.git
 - style.css 即简单的网页css文件。
 - script.js 也即简单的js文件。
 
+
+### 效果演示
+
+![alt text](mdimg/yanshi1.png)
+
+![alt text](<mdimg/generated-image (15).png>)
 
 ### 贡献者
 
