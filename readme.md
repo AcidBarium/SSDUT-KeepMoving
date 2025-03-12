@@ -32,6 +32,7 @@
 ###### 开发前的配置要求
 
 1. 一个看起来不错的浏览器
+2. 没了
 
 ###### **安装步骤**
 
@@ -86,12 +87,12 @@ git clone https://github.com/AcidBarium/SSDUT-KeepMoving.git
 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
 ### 作者
-Acidbarium
+[Acidbarium](https://github.com/AcidBarium)
 
 联系方式：acidbarium@gmail.com
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅[LICENSE](LICENSE)
 
 
