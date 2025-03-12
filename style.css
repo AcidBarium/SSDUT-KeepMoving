@@ -73,3 +73,15 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
+.avatar {
+    width: 100px;
+    /* 设置宽度 */
+    height: 100px;
+    /* 设置高度 */
+    border-radius: 50%;
+    /* 让头像变圆形 */
+    object-fit: cover;
+    /* 确保图片不变形 */
+}
