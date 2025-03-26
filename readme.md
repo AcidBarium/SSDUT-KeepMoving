@@ -10,10 +10,15 @@
 
 大连理工大学软件学院keep截图工具。
 
+> [!IMPORTANT]
+> 🚀 你可以通过这个链接访问网站：[🔗 点击这里](https://acidbarium.github.io/SSDUTkeepMoving/)
+
+
+
+
 > [!CAUTION]
 > 本项目仅供娱乐，请合理使用。
 
- 
 ## 目录
 
 - [上手指南](#上手指南)
